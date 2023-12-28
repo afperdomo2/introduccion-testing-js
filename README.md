@@ -11,6 +11,9 @@ cd demos
 ```sh
 # Ejecutar los test
 npm run test
+
+# Ejecutar un test específico
+npm run test -- 06-person
 ```
 
 ## 2. Pruebas estáticas - EsLint
