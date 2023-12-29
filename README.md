@@ -3,6 +3,8 @@
 ```sh
 # Inicia en servidor en: http://localhost:3000/
 npm run start
+
+npm run test
 ```
 
 ```sh
