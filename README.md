@@ -14,6 +14,9 @@ npm run test
 
 # Ejecutar un test específico
 npm run test -- 06-person
+
+# Ejecuta los tests y genera un informe de cobertura
+npm run test -- --coverage
 ```
 
 ## 2. Pruebas estáticas - EsLint
