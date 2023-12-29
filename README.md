@@ -1,3 +1,20 @@
+# Api
+
+```sh
+# Inicia en servidor en: http://localhost:3000/
+npm run start
+```
+
+```sh
+docker-compose up -d mongo
+
+docker-compose down
+```
+
+### Rutas:
+
+[http://localhost:3000/api/v1/books](http://localhost:3000/api/v1/books)
+
 # Demos
 
 Ingresar a demos
