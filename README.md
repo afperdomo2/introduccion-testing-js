@@ -4,10 +4,15 @@
 # Inicia en servidor en: http://localhost:3000/
 npm run start
 
+# Ejecutar las pruebas unitarias
 npm run test
+
+# Ejecutar las pruebas end to end (punto a punto)
+npm run test:e2e
 ```
 
 ```sh
+# Iniciar el servicio local de mongo
 docker-compose up -d mongo
 
 docker-compose down
