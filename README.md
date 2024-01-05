@@ -18,9 +18,10 @@ docker-compose up -d mongo
 docker-compose down
 ```
 
-### Rutas:
+### Rutas (endpoints):
 
-[http://localhost:3000/api/v1/books](http://localhost:3000/api/v1/books)
+- [http://localhost:3000](http://localhost:3000)
+- [http://localhost:3000/api/v1/books](http://localhost:3000/api/v1/books)
 
 # Demos
 
