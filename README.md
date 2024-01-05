@@ -12,8 +12,13 @@ npm run test:e2e
 ```
 
 ```sh
-# Iniciar el servicio local de mongo
+# Iniciar todos los servicios
+docker-compose up -d
+
+# Iniciar un servicio individual
 docker-compose up -d mongo
+
+docker-compose up -d mongo-e2e
 
 docker-compose down
 ```
