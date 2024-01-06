@@ -99,8 +99,12 @@ cd webapp
 npm init playwright@latest
 ```
 
-### Ejecutar los tests
+### Scripts
 
 ```sh
+# Ejecutar los tests
 npx playwright test
+
+# Mostrar el reporte de los tests ejecutados
+npx playwright show-report
 ```
