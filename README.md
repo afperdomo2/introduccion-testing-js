@@ -1,7 +1,23 @@
-# Api
+# Introducción al testing con JS
+
+## 🎨UI tests
+
+Tests para interfaces con [Playwright](https://playwright.dev/)
+
+las UI tests son pruebas automatizadas que verifican el correcto funcionamiento de la interfaz de usuario de una aplicación, simulando las acciones de un usuario y comprobando que los elementos de la interfaz respondan correctamente.
+
+## 📁/api
+
+### Ingresar a api
 
 ```sh
-# Inicia en servidor en: http://localhost:3000/
+cd api
+```
+
+### Scripts del proyecto
+
+```sh
+# Iniciar en servidor en: http://localhost:3000/
 npm run start
 
 # Ejecutar las pruebas unitarias
@@ -10,6 +26,8 @@ npm run test
 # Ejecutar las pruebas end to end (punto a punto)
 npm run test:e2e
 ```
+
+### Docker Compose
 
 ```sh
 # Iniciar todos los servicios
@@ -20,6 +38,7 @@ docker-compose up -d mongo
 
 docker-compose up -d mongo-e2e
 
+# Apagar los servicios
 docker-compose down
 ```
 
@@ -28,31 +47,35 @@ docker-compose down
 - [http://localhost:3000](http://localhost:3000)
 - [http://localhost:3000/api/v1/books](http://localhost:3000/api/v1/books)
 
-# Demos
+---
 
-Ingresar a demos
+## 📁/demos
+
+Proyecto para realizar pruebas unitarias a funciones
+
+### Ingresar a demos
 
 ```sh
 cd demos
 ```
 
-## 1. Pruebas unitarias - Jest
+### Pruebas unitarias - Jest
 
 ```sh
-# Ejecutar los test
+# Ejecutar los tests
 npm run test
 
 # Ejecutar un test específico
 npm run test -- 06-person
 
-# Ejecuta los tests y genera un informe de cobertura
+# Ejecutar todos los tests y generar un informe de cobertura
 npm run test -- --coverage
 ```
 
-## 2. Pruebas estáticas - EsLint
+### Pruebas estáticas - EsLint
 
 ```sh
-# Inicializa la configuración de ESLint en el proyecto.
+# Inicializar la configuración de ESLint en el proyecto.
 npx eslint --init
 
 # Ejecuta una herramienta de linting para analizar el código y encontrar posibles errores o problemas de estilo
