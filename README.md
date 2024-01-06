@@ -1,11 +1,5 @@
 # Introducción al testing con JS
 
-## 🎨UI tests
-
-Tests para interfaces con [Playwright](https://playwright.dev/)
-
-las UI tests son pruebas automatizadas que verifican el correcto funcionamiento de la interfaz de usuario de una aplicación, simulando las acciones de un usuario y comprobando que los elementos de la interfaz respondan correctamente.
-
 ## 📁/api
 
 ### Ingresar a api
@@ -83,4 +77,18 @@ npm run lint
 
 # Este script también ejecuta la herramienta de linting, pero además intenta corregir automáticamente los problemas encontrados
 npm run lint:fix
+```
+
+## 📁/webapp
+
+### UI tests
+
+Son pruebas automatizadas que verifican el correcto funcionamiento de la interfaz de usuario de una aplicación, simulando las acciones de un usuario y comprobando que los elementos de la interfaz respondan correctamente.
+
+Se pueden realizar UI Tests con [Playwright](https://playwright.dev/)
+
+### Ingresar a webapp
+
+```sh
+cd webapp
 ```
