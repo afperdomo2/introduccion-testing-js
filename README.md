@@ -92,3 +92,15 @@ Se pueden realizar UI Tests con [Playwright](https://playwright.dev/)
 ```sh
 cd webapp
 ```
+
+### Instalar e inicializar Playwright
+
+```sh
+npm init playwright@latest
+```
+
+### Ejecutar los tests
+
+```sh
+npx playwright test
+```
